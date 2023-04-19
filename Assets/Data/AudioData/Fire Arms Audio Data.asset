@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbce08e5f8c4e4e46bec529c35e39d11, type: 3}
+  m_Name: Fire Arms Audio Data
+  m_EditorClassIdentifier: 
+  shootingAudioClip: {fileID: 8300000, guid: 42a669c4060094045b8482dc4a74974a, type: 3}
+  reloadLeft: {fileID: 8300000, guid: ae6f8c443765c1f42a562abda5627679, type: 3}
+  reloadOutOf: {fileID: 8300000, guid: 233714e1d4e31fb4ab707ea5db45f612, type: 3}

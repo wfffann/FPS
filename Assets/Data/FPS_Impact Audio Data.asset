@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be75435e9bc8b6e41a26ca64923b6815, type: 3}
+  m_Name: FPS_Impact Audio Data
+  m_EditorClassIdentifier: 
+  impactTagsWithAudios:
+  - Tag: Metal
+    impactAudioClips:
+    - {fileID: 8300000, guid: 4aa3a342c81fb824db61a47d8ec4f571, type: 3}
+    - {fileID: 8300000, guid: 4f9dd82f9bf672743a67717e15a9f597, type: 3}
+  - Tag: Wood
+    impactAudioClips:
+    - {fileID: 8300000, guid: e213790840506864fab427c85229093f, type: 3}
+    - {fileID: 8300000, guid: f8e4f430a5d00814087658cbb52cd500, type: 3}

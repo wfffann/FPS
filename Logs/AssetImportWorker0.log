@@ -15,7 +15,7 @@ F:/Unity/Unity Hub/project/FPSFin
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49348
+58087
 Successfully changed project path to: F:/Unity/Unity Hub/project/FPSFin
 F:/Unity/Unity Hub/project/FPSFin
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -48,7 +48,7 @@ F:/Unity/Unity Hub/project/FPSFin
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 139.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 131.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.12f1c2 (ffeb050254a0)
 [Subsystems] Discovering subsystems at path F:/Unity/2021.3.12f1c2/Editor/Data/Resources/UnitySubsystems
@@ -64,89 +64,89 @@ Initialize mono
 Mono path[0] = 'F:/Unity/2021.3.12f1c2/Editor/Data/Managed'
 Mono path[1] = 'F:/Unity/2021.3.12f1c2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/Unity/2021.3.12f1c2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Unity/2021.3.12f1c2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006949 seconds.
+Registered in 0.005468 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 122.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 134.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.138 seconds
+- Completed reload, in  1.099 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1138ms)
-		BeginReloadAssembly (196ms)
+	ReloadAssembly (1100ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (736ms)
-			LoadAssemblies (182ms)
+		EndReloadAssembly (777ms)
+			LoadAssemblies (134ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (177ms)
+			SetupTypeCache (167ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (423ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (477ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (123ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (197ms)
-				ProcessInitializeOnLoadMethodAttributes (89ms)
+				RefreshPlugins (135ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.030216 seconds.
+Registered in 0.023486 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image F:\Unity\Unity Hub\project\FPSFin\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image F:\Unity\Unity Hub\project\FPSFin\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.896 seconds
+- Completed reload, in  1.918 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1898ms)
-		BeginReloadAssembly (245ms)
+	ReloadAssembly (1919ms)
+		BeginReloadAssembly (193ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1414ms)
-			LoadAssemblies (244ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1523ms)
+			LoadAssemblies (172ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (433ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (615ms)
+			SetupTypeCache (492ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (675ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (144ms)
-				ProcessInitializeOnLoadAttributes (383ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (32ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (467ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (113.4 KB). Loaded Objects now: 3866.
-Memory consumption went from 123.4 MB to 123.3 MB.
-Total: 3.825400 ms (FindLiveObjects: 0.380600 ms CreateObjectMapping: 0.122300 ms MarkObjects: 3.185000 ms  DeleteObjects: 0.135800 ms)
+Unloading 3434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.9 KB). Loaded Objects now: 3897.
+Memory consumption went from 124.8 MB to 124.7 MB.
+Total: 5.050000 ms (FindLiveObjects: 0.409700 ms CreateObjectMapping: 0.189100 ms MarkObjects: 4.298900 ms  DeleteObjects: 0.150900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,3 +159,303 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30280.589928 seconds.
+  path: Assets/0.Laoyu Survival
+  artifactKey: Guid(1e5c916ef0ef5b742aead15c390325d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0.Laoyu Survival using Guid(1e5c916ef0ef5b742aead15c390325d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6cdd7fb4c116823f2ed5057f351ad95') in 0.010450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.677255 seconds.
+  path: Assets/Pakage/特效
+  artifactKey: Guid(e139a0a704325ff41bf84d50c6531f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/特效 using Guid(e139a0a704325ff41bf84d50c6531f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb4428ab286317eba0215120f9eaa01') in 0.006297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.631746 seconds.
+  path: Assets/Pakage/特效/StylizedProjectilePack1
+  artifactKey: Guid(b6d854fb7cde5dc48bbdabb1a63f0b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/特效/StylizedProjectilePack1 using Guid(b6d854fb7cde5dc48bbdabb1a63f0b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0f9cad1ec05e04c7d6a21590a8ff52') in 0.004850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.858231 seconds.
+  path: Assets/Pakage/特效/StylizedProjectilePack1/prefabs
+  artifactKey: Guid(a29697bd62ebd5a4c92ec89f6e0ed7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/特效/StylizedProjectilePack1/prefabs using Guid(a29697bd62ebd5a4c92ec89f6e0ed7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8851f99e1a5a6e65076911674250840') in 0.005052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.534409 seconds.
+  path: Assets/Pakage/特效/StylizedProjectilePack1/prefabs/Bullet
+  artifactKey: Guid(e2ded9ec9e44f6f48b5c147061896bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/特效/StylizedProjectilePack1/prefabs/Bullet using Guid(e2ded9ec9e44f6f48b5c147061896bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2ec35960eebfa1f3efd82ddb06076c') in 0.004429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.913115 seconds.
+  path: Assets/Pakage/特效/StylizedProjectilePack1/prefabs/Bullet/Bullet_GoldFire
+  artifactKey: Guid(164ff66de99c0b641b11c70dc70d10f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/特效/StylizedProjectilePack1/prefabs/Bullet/Bullet_GoldFire using Guid(164ff66de99c0b641b11c70dc70d10f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fce32e2ff8c2755760a39316737cb8e') in 0.004776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.185470 seconds.
+  path: Assets/Pakage/特效/StylizedProjectilePack1/prefabs/Bullet/Bullet_DemonPurple
+  artifactKey: Guid(0b29fc36c3d4c1a41a8a61e577083487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/特效/StylizedProjectilePack1/prefabs/Bullet/Bullet_DemonPurple using Guid(0b29fc36c3d4c1a41a8a61e577083487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cb0ac14dda0d4b9291ed361e1554e1') in 0.004733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.579328 seconds.
+  path: Assets/Pakage/特效/StylizedProjectilePack1/prefabs/Bullet/Bullet_GoldFire/Bullet_Small_Goldfire
+  artifactKey: Guid(d325daa442387674a8d0dc3e082aa1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/特效/StylizedProjectilePack1/prefabs/Bullet/Bullet_GoldFire/Bullet_Small_Goldfire using Guid(d325daa442387674a8d0dc3e082aa1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b219e79f96a0371d3eda7f4c38a312') in 0.004904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.621350 seconds.
+  path: Assets/Pakage/特效/StylizedProjectilePack1/prefabs/Bullet/Bullet_GoldFire/Bullet_Big_GoldFire
+  artifactKey: Guid(b27a8850aa70af84caf02692cf78caa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/特效/StylizedProjectilePack1/prefabs/Bullet/Bullet_GoldFire/Bullet_Big_GoldFire using Guid(b27a8850aa70af84caf02692cf78caa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690f281355ea30fc4caec9316518eb95') in 0.004936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.576900 seconds.
+  path: Assets/Pakage/特效/StylizedProjectilePack1/prefabs/Bullet/Bullet_GoldFire/Bullet_Big_GoldFire/Bullet_GoldFire_Big_Impact.prefab
+  artifactKey: Guid(a4cff697ca8b3574da3648eaa8aed1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/特效/StylizedProjectilePack1/prefabs/Bullet/Bullet_GoldFire/Bullet_Big_GoldFire/Bullet_GoldFire_Big_Impact.prefab using Guid(a4cff697ca8b3574da3648eaa8aed1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0703eb56eb540ceed2a76f7b8a06e71c') in 0.264892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 207.860350 seconds.
+  path: Assets/Prefab/Bullet.prefab
+  artifactKey: Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Bullet.prefab using Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a0dfe4ff5a421917717022d5c654b0') in 0.023770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.926613 seconds.
+  path: Assets/Prefab/Bullet.prefab
+  artifactKey: Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Bullet.prefab using Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103bf66d2f5c83c5d484353b79c4eb5a') in 0.015736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.802381 seconds.
+  path: Assets/Prefab/Bullet.prefab
+  artifactKey: Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Bullet.prefab using Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5c364a73c2c920ec4f777a77b86144') in 0.013932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.147211 seconds.
+  path: Assets/Prefab/Bullet.prefab
+  artifactKey: Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Bullet.prefab using Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f9a4f644a029c54b76524eeadc5fca') in 0.013860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.012010 seconds.
+  path: Assets/Prefab/Bullet.prefab
+  artifactKey: Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Bullet.prefab using Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6561534a4c1055ee0180334152ab7b62') in 0.015602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.778205 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Demo_Scenes/Prefabs/Ammo Box.prefab
+  artifactKey: Guid(01215cf7bde4d844bb550d8ddfccb49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Demo_Scenes/Prefabs/Ammo Box.prefab using Guid(01215cf7bde4d844bb550d8ddfccb49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff8a0a07f379b9dff325b8187301a6d') in 0.072439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Prefabs/Example_Prefabs/Arms/Assault_Rifle_02_Example_Prefab/Assault_Rifle_02_FPSController.prefab
+  artifactKey: Guid(abf9b5d3095e4cf47a3527c795be3b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Prefabs/Example_Prefabs/Arms/Assault_Rifle_02_Example_Prefab/Assault_Rifle_02_FPSController.prefab using Guid(abf9b5d3095e4cf47a3527c795be3b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4191acdc4a4e633c40065cca23dde5e5') in 0.406578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.436240 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Prefabs/Example_Prefabs/Arms/Assault_Rifle_03_Example_Prefab/Assault_Rifle_03_FPSController.prefab
+  artifactKey: Guid(c7d2d50ded1dfcc419ef54ac67ec8339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Prefabs/Example_Prefabs/Arms/Assault_Rifle_03_Example_Prefab/Assault_Rifle_03_FPSController.prefab using Guid(c7d2d50ded1dfcc419ef54ac67ec8339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0563bb96914694fa2b2c919317ac1e') in 0.253649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058841 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Third_Person_Character/Prefabs/Character_Props/Backpack.prefab
+  artifactKey: Guid(3ccc70eb93deb7d4cb5299b90f0da885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Third_Person_Character/Prefabs/Character_Props/Backpack.prefab using Guid(3ccc70eb93deb7d4cb5299b90f0da885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295357bd4b388cae237a84e23472e351') in 0.025386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Prefabs/Models_Only/Melee_Weapons/Baseball_Bat_6.prefab
+  artifactKey: Guid(b8e27e3876730514fad401de0c32ed73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Prefabs/Models_Only/Melee_Weapons/Baseball_Bat_6.prefab using Guid(b8e27e3876730514fad401de0c32ed73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6224daf3ae8b70cbf7aac11e300a1a') in 0.023568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Prefabs/Models_Only/Melee_Weapons/Baseball_Bat_5.prefab
+  artifactKey: Guid(984d2ad9eb8f7f649ae3ec00029f6f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Prefabs/Models_Only/Melee_Weapons/Baseball_Bat_5.prefab using Guid(984d2ad9eb8f7f649ae3ec00029f6f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8e62b987238302de515f928b5f7cbf') in 0.022392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Prefabs/Models_Only/Melee_Weapons/Baseball_Bat_4.prefab
+  artifactKey: Guid(c52a2831e2813ef45b027ab800712b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Prefabs/Models_Only/Melee_Weapons/Baseball_Bat_4.prefab using Guid(c52a2831e2813ef45b027ab800712b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743ad5742761fb8dab9266a7144347ee') in 0.021403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Demo_Scenes/Prefabs/Demo_Scene_2/Bare_Tree.prefab
+  artifactKey: Guid(ef824728a3e568d40a0b13dd0e6261be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Demo_Scenes/Prefabs/Demo_Scene_2/Bare_Tree.prefab using Guid(ef824728a3e568d40a0b13dd0e6261be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750c51f83e761b3157652a1115f56524') in 0.034323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Prefabs/Models_Only/Melee_Weapons/Baseball_Bat_1.prefab
+  artifactKey: Guid(d4fe5eee0d8080545a1e2ceb03404a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Prefabs/Models_Only/Melee_Weapons/Baseball_Bat_1.prefab using Guid(d4fe5eee0d8080545a1e2ceb03404a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528318c364796c9a20da341129326e84') in 0.017068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059171 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Prefabs/Models_Only/Bullets_&_Casings/Big_Bullet.prefab
+  artifactKey: Guid(00e59d6264b845d4ab86c04120aca80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Prefabs/Models_Only/Bullets_&_Casings/Big_Bullet.prefab using Guid(00e59d6264b845d4ab86c04120aca80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d233fef14d7fb493e86f9f5cc12180') in 0.020787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Demo_Scenes/Prefabs/Demo_Scene_3/Blinds Small 2 Broken.prefab
+  artifactKey: Guid(540a55360429f864cbd9a62d2997b121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Demo_Scenes/Prefabs/Demo_Scene_3/Blinds Small 2 Broken.prefab using Guid(540a55360429f864cbd9a62d2997b121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234b0001804b829afbebb4b22ac42427') in 0.027706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Demo_Scenes/Prefabs/Demo_Scene_3/Blinds Large 1 Broken.prefab
+  artifactKey: Guid(0a4e5748015c4b0419ec9e0464bd684f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Demo_Scenes/Prefabs/Demo_Scene_3/Blinds Large 1 Broken.prefab using Guid(0a4e5748015c4b0419ec9e0464bd684f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd7afa16e967cc16fcb1bc374c87f64') in 0.028410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Demo_Scenes/Prefabs/Demo_Scene_3/Blinds Large 2 Broken.prefab
+  artifactKey: Guid(603cbf70f0cf29c40bf86f3a07ad039b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Demo_Scenes/Prefabs/Demo_Scene_3/Blinds Large 2 Broken.prefab using Guid(603cbf70f0cf29c40bf86f3a07ad039b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a66ef69f00e8d60dce5a13de83d08a2') in 0.036322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Demo_Scenes/Prefabs/Demo_Scene_3/Blinds 1 Broken.prefab
+  artifactKey: Guid(fdab7e5cf5d4c984bb1d54cd5dc2a1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Demo_Scenes/Prefabs/Demo_Scene_3/Blinds 1 Broken.prefab using Guid(fdab7e5cf5d4c984bb1d54cd5dc2a1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556c69679dd480fc7cce343afc6fb812') in 0.057319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Demo_Scenes/Prefabs/Demo_Scene_3/Blinds Small 1.prefab
+  artifactKey: Guid(6ae7df50e53ae5248995749fba7804fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Demo_Scenes/Prefabs/Demo_Scene_3/Blinds Small 1.prefab using Guid(6ae7df50e53ae5248995749fba7804fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191069beeb6e4d12e25404b77d5067c3') in 0.027260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.309577 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Prefabs/Example_Prefabs/Bullet_Impacts/Blood Impact Prefab.prefab
+  artifactKey: Guid(a845e59c374ae0240812749e46f13033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Prefabs/Example_Prefabs/Bullet_Impacts/Blood Impact Prefab.prefab using Guid(a845e59c374ae0240812749e46f13033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5f0d96363bc97b2336732463eb43fa') in 0.025006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Prefabs/Example_Prefabs/Bullet_Impacts/Dirt Impact Prefab.prefab
+  artifactKey: Guid(7178009a59b47d44385e833bda688e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Prefabs/Example_Prefabs/Bullet_Impacts/Dirt Impact Prefab.prefab using Guid(7178009a59b47d44385e833bda688e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bb412907e2ae4a74c49eb9efbcb283') in 0.028796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.634631 seconds.
+  path: Assets/Prefab/Bullet.prefab
+  artifactKey: Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Bullet.prefab using Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297911e7e38ee4dab66872197c7aa455') in 0.025470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.925068 seconds.
+  path: Assets/Prefab/Bullet.prefab
+  artifactKey: Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Bullet.prefab using Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a2ab6b2936258f628c71d027fd85a8') in 0.032357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.827400 seconds.
+  path: Assets/Prefab/Bullet.prefab
+  artifactKey: Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Bullet.prefab using Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b2d3add63d354b28a39bd50b191e62') in 0.039398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.745045 seconds.
+  path: Assets/Prefab/Bullet.prefab
+  artifactKey: Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Bullet.prefab using Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fca17f9803137c2c586fec5f5e5fac4') in 0.046152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.303012 seconds.
+  path: Assets/Data/AudioData/Fire Arms Audio Data.asset
+  artifactKey: Guid(e561f02e2ce637a43bbda49f4be4ab1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/AudioData/Fire Arms Audio Data.asset using Guid(e561f02e2ce637a43bbda49f4be4ab1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec9ff8076bda64a21b993f95c0c98ff') in 0.014491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.419783 seconds.
+  path: Assets/Prefab/Bullet.prefab
+  artifactKey: Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Bullet.prefab using Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e67c72434e8934c58278579a261218d') in 0.045809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.534413 seconds.
+  path: Assets/Prefab/Bullet.prefab
+  artifactKey: Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Bullet.prefab using Guid(0fbbe55f4ddca2d48a8a699d16dfec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c54556f00166b1f5d3bc2c96402bc8') in 0.045312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.101782 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Components/Textures_&_Sprites/Arm_Textures/Arm_Texture_Digital_Camo_Desert_01.png
+  artifactKey: Guid(bc0f6ba7d368c9d46a24cd49811bee77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Components/Textures_&_Sprites/Arm_Textures/Arm_Texture_Digital_Camo_Desert_01.png using Guid(bc0f6ba7d368c9d46a24cd49811bee77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db4c7c81cd255b6596e0e682dc860de') in 0.053427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Components/Textures_&_Sprites/Arm_Textures/Arm_Texture_Digital_Camo_Desert_03.png
+  artifactKey: Guid(ed4993ebb71b7e24e8a0fab20fa154cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Components/Textures_&_Sprites/Arm_Textures/Arm_Texture_Digital_Camo_Desert_03.png using Guid(ed4993ebb71b7e24e8a0fab20fa154cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b306428952f071749a9dd1a8623bcdc6') in 0.019575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002997 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Components/Textures_&_Sprites/UI/Misc_Icons_Spritesheet/Misc_Icons_Spritesheet.png
+  artifactKey: Guid(04e6792f470c37741aa02ec74be1777b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Components/Textures_&_Sprites/UI/Misc_Icons_Spritesheet/Misc_Icons_Spritesheet.png using Guid(04e6792f470c37741aa02ec74be1777b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8683ddb5ba9640bde2de55a93f048eb2') in 0.303383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.582056 seconds.
+  path: Assets/Pakage/特效/StylizedProjectilePack1/materials/decal/decal_explode_alphaBlend.mat
+  artifactKey: Guid(6ea51468fc6b22b41ae8036fd0b1aa53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/特效/StylizedProjectilePack1/materials/decal/decal_explode_alphaBlend.mat using Guid(6ea51468fc6b22b41ae8036fd0b1aa53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb490d1209277c8e85660ea37d476b2a') in 0.050159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042185 seconds.
+  path: Assets/Pakage/特效/StylizedProjectilePack1/textures/gradientVertical50.png
+  artifactKey: Guid(b3e14f672bd6a044daebbcb0115a8734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/特效/StylizedProjectilePack1/textures/gradientVertical50.png using Guid(b3e14f672bd6a044daebbcb0115a8734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc90a638498b74186c8edc6fc1cd2b5') in 0.013541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.094478 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Prefabs/Models_Only/Bullets_&_Casings/Shellcasing_Empty.prefab
+  artifactKey: Guid(76d0201c2f173a0419e047dc33d1cdeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Prefabs/Models_Only/Bullets_&_Casings/Shellcasing_Empty.prefab using Guid(76d0201c2f173a0419e047dc33d1cdeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53134ff271eee16baffbe7efeffc19e8') in 0.018050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015151 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Prefabs/Models_Only/Bullets_&_Casings/Shellcasing_Full.prefab
+  artifactKey: Guid(f16aa69c5e9119946873ffb17ad084bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Prefabs/Models_Only/Bullets_&_Casings/Shellcasing_Full.prefab using Guid(f16aa69c5e9119946873ffb17ad084bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090ac93e461a15f3afda91a8fbcfc520') in 0.016051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007112 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Prefabs/Models_Only/Bullets_&_Casings/Small_Bullet_Casing.prefab
+  artifactKey: Guid(167b05545e98d3a48b250f86b5a63c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Prefabs/Models_Only/Bullets_&_Casings/Small_Bullet_Casing.prefab using Guid(167b05545e98d3a48b250f86b5a63c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3137f3ad6ad374c5802db1f88fe74ad6') in 0.015382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.246906 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Prefabs/Models_Only/Tactical_Knife/Tactical_Knife.prefab
+  artifactKey: Guid(d3882a1d26d11214da76a466ac04da95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Prefabs/Models_Only/Tactical_Knife/Tactical_Knife.prefab using Guid(d3882a1d26d11214da76a466ac04da95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ea16f81221e2157c4d2b1642e39af7') in 0.019582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Third_Person_Character/Components/Textures/Character_Textures/Third_Person_Character_Texture_Digital_Camo_Desert_02.png
+  artifactKey: Guid(d45701f9711c1b74e9947b81a7fc1bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Third_Person_Character/Components/Textures/Character_Textures/Third_Person_Character_Texture_Digital_Camo_Desert_02.png using Guid(d45701f9711c1b74e9947b81a7fc1bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb587eba3f8ed6a4ca05fccbfd5788a') in 0.021958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005266 seconds.
+  path: Assets/Pakage/Low Poly FPS Pack/Components/Demo_Scene_Components/Textures_&_Sprites/Weapon_Showcase_Textures/Weapon_Showcase_Shadow_Texture.png
+  artifactKey: Guid(27d10abcb5ddfd84f9ffc5760350e429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pakage/Low Poly FPS Pack/Components/Demo_Scene_Components/Textures_&_Sprites/Weapon_Showcase_Textures/Weapon_Showcase_Shadow_Texture.png using Guid(27d10abcb5ddfd84f9ffc5760350e429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b0200d9d815962dbbd43bb2952061a') in 0.086491 seconds 
